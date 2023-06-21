@@ -1,0 +1,50 @@
+{
+    "trains": [
+      {
+        "id": 1,
+        "name": "Express Train",
+        "departureTime": "09:30 AM",
+        "arrivalTime": "01:45 PM",
+        "delay": 10,
+        "seatsAvailability": {
+          "sleeper": 50,
+          "AC": 20
+        },
+        "prices": {
+          "sleeper": 500,
+          "AC": 1000
+        }
+      },
+      {
+        "id": 2,
+        "name": "Local Train",
+        "departureTime": "07:15 AM",
+        "arrivalTime": "09:45 AM",
+        "delay": 0,
+        "seatsAvailability": {
+          "sleeper": 100,
+          "AC": 50
+        },
+        "prices": {
+          "sleeper": 200,
+          "AC": 400
+        }
+      },
+      {
+        "id": 3,
+        "name": "Superfast Train",
+        "departureTime": "02:00 PM",
+        "arrivalTime": "06:30 PM",
+        "delay": 5,
+        "seatsAvailability": {
+          "sleeper": 20,
+          "AC": 10
+        },
+        "prices": {
+          "sleeper": 800,
+          "AC": 1500
+        }
+      }
+    ]
+  }
+  
